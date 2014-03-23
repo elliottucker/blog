@@ -1,0 +1,5 @@
+Title: Pelican static HTML blog on Digital Ocean
+Date: 2014-03-22 15:40
+Tags: python
+
+[Digital Ocean](digitalocean.com) have been swamping my timeline with promoted tweets advertising their $5 a month droplets, wee virtualised servers.  A five bucks a month it's cheaper than my current hosting by a couple of quid and gives me full access to the "server" to play with and screw up as I wish.  I'd been using [Octopress](octopress.org) as a static site generate hosting on GitHub pages, but this was a bit of a pain to serve, and is very Ruby, which I know but don't quite "get", unlike Python - which I think I do get.  Happy with the set up for now - just a simple notes site.  Really easy to set up too (if you have Linux chops), and I'm most comfortable with shell access than anything else.  God I hate web hosting company's control panels.
