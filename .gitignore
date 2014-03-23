@@ -3,5 +3,4 @@ bin/*
 Makefile
 include/*
 output/*
-pelican-themes/*
 *.pyc
