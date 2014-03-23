@@ -1,4 +1,4 @@
 To set up env.
 
-pip install pelican Fabric
+pip install pelican Fabric markdown
 
