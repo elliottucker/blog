@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Elliot Tucker'
 SITENAME = u"Elliot's Stuff"
-SITEURL = 'http://www.elliottucker.net'
+SITEURL = 'https://elliottucker.net'
 
 TIMEZONE = 'Europe/Dublin'
 
@@ -14,6 +14,9 @@ THEME="pelican-themes/pelican-bootstrap3"
 PYGMENTS_STYLE="monokai"
 AVATAR="images/me.jpg"
 PATH="content"
+
+RELATIVE_URLS = False
+BOOTSTRAP_NAVBAR_INVERSE=True
 
 DISPLAY_RECENT_POSTS_ON_SIDEBAR = True
 # Feed generation is usually not desired when developing
@@ -30,7 +33,10 @@ TRANSLATION_FEED_ATOM = None
 # Social widget
 SOCIAL = (('Twitter', 'http://twitter.com/elliottucker'),
           ('Flickr', 'http://www.flickr.com/elliot_tucker'),
-          ('Google+','https://plus.google.com/+ElliotTucker'))
+          ('Google+','https://plus.google.com/+ElliotTucker'),
+          ('LinkedIn', 'https://ie.linkedin.com/in/elliottucker/')
+          )
+
 				
 
 DEFAULT_PAGINATION = False
