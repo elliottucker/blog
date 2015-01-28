@@ -14,13 +14,18 @@ THEME="pelican-themes/pelican-bootstrap3"
 PYGMENTS_STYLE="monokai"
 AVATAR="images/me.jpg"
 PATH="content"
+SITELOGO="images/me.jpg"
+SITELOGO_SIZE="30px"
+FAVICON="images/me.jpg"
+HIDE_SITENAME=True
 
-RELATIVE_URLS = False
+
+
 BOOTSTRAP_NAVBAR_INVERSE=True
 
 DISPLAY_RECENT_POSTS_ON_SIDEBAR = True
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 # Blogroll
@@ -44,4 +49,4 @@ DEFAULT_PAGINATION = False
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-STATIC_PATHS = ['images']
+STATIC_PATHS = ['images', '.well-known']

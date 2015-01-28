@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/elliottucker
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://elliottucker.net
+  * I am elliottucker (https://keybase.io/elliottucker) on keybase.
+  * I have a public key with fingerprint RETU RN T HIS. PGP. GET_  FING ERPR INT( );
+     }
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "57d9cc277298067136a8244085379b5d7ec6e568",
+            "host": "keybase.io",
+            "key_id": "85379b5d7ec6e568",
+            "kid": "0101ebad7e0dcfdba3edab92ab8e0a8e116b87e9bff6fa1d6a6402aa073f97bf30930a",
+            "uid": "0d6b91dfc0c4b63204fddd167cbb4f00",
+            "username": "elliottucker"
+        },
+        "revoke": {
+            "sig_ids": [
+                "44f296de688e3ba81bbf2f69e00289fd34e546300dce35b46dbc79af85ef83ee0f"
+            ]
+        },
+        "service": {
+            "hostname": "elliottucker.net",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1422201535,
+    "expire_in": 157680000,
+    "prev": "7cf40b4ef18fea6b3acdb9a4383e66bf7b61ce8af3eb60193af5d4a347c71aff",
+    "seqno": 14,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.1
+Comment: https://keybase.io/crypto
+
+yMJoAnicbZJdbBVFFMfv1dpCE8NngkRFs2nkpdDZndmZ3UtiWkNKTBQNaEmo5DIf
+Z243t+xe9+4tbRpIFBslVkNEH9AKQRJIDAkfD6BBWtoUqiGoEbTcNLERWhIw9Ys+
+aCLgbNU35mUy5/znd/5z5ow+/GCmPtvHPtqy88J0R/bi8OFK5qXzi4d6LRGpHivX
+axVhbtNBWIC4FAdhYuUslylfSocxx/cQZTam3HMIQZ6LmS9cxUBScKlnNVodUTm9
+YTCCl2F1EJmYOeQDZaL30RfnEshGNghuEkhJrQTHoLjwHS48QNwD26bCY+ALranm
+tqKcEuRwjhjWPhMaIx8jbnCVf3GKCt9WWiJJBMUOIlopZVMmhSAaoVRYhjjk28Co
+obMziJKkIosQWzsarRi6oiKkXSgHBWO8bOXaLUK041MF1PMAC+7ZQmhHUx8Qcjxf
+K0zAJRQj4x+wKwhVQjKfa88F7WEApK0thm2qdgVyDp526j4OVoeQGH+lOEoiGXWa
+bEeSlMq51FnSU0rl20Hk/wPlRRAq81fmRhfE5SAKrZxtlDIJUrJNHMdBtovdRgu6
+S0EM+SBVuIx6yKy0DnQZJJOaIEFA254GTgXmUgmfE2y8Uyo0E9SW4HGNQVBk+5hr
+VxGOCZPM5lpb6dNeDaO0pPHJC4ZpuhfypBKDtWPk3Cs1mWx9pvahB9Jxy9TPX/j/
+ELYuq7v3Yo1a+vXVsNmZyG3My5VX2n/7bnby98m17TeuLZl6ZLyh9cinExt27uWn
+ags9n2wPF11tvXRwwbe7ElGqxM9WVm37/tfXh93ho9XDF+++ve70klubNveOfHXm
+dtPl0eIaNN5954l+NbH73deqA31H4nVNP/5Sm7+zYfjQ/vffenn9D2cGZ8/SL1Zd
+SFYUDn7214nWyYZn1g6MTVeqP9WsyO9vO7B36snxN/8M3mlceG/fpoG66pqwaWjR
+vqGVy5/a7Hz8ws2xW3veePTk4kPZzvWX5i3YKq98M7OneWk/fyy76/O2ltvX/8ge
+G2vL7U6ON3zw/OCHLX3vLfs7fO7AzM/V+tmnH2/ZOH7y7syX/f8ANLdSMQ==
+=VY2o
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/elliottucker
+
+==================================================================
