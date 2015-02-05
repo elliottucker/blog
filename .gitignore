@@ -3,4 +3,5 @@ bin/*
 Makefile
 include/*
 output/*
+cache/*
 *.pyc
