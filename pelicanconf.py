@@ -29,20 +29,21 @@ FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 # Blogroll
-# LINKS =  (('Pelican', 'http://getpelican.com/'),
+#LINKS =  (('Photos', 'http://elliottucker.net/bestof/'),)
 #           ('Python.org', 'http://python.org/'),
 #           ('Jinja2', 'http://jinja.pocoo.org/'),
 #           ('You can modify those links in your config file', '#'),)
 
+MENUITEMS = (("Photos","/photos/bestof"),)
 
 # Social widget
 SOCIAL = (('Twitter', 'http://twitter.com/elliottucker'),
-          ('Flickr', 'http://www.flickr.com/elliot_tucker'),
+          ('500px', 'http://www.500px.com/elliottucker'),
           ('Google+','https://plus.google.com/+ElliotTucker'),
           ('LinkedIn', 'https://ie.linkedin.com/in/elliottucker/')
           )
 
-				
+
 
 DEFAULT_PAGINATION = False
 

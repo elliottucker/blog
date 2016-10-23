@@ -7,8 +7,8 @@ env.deploy_path = 'output'
 DEPLOY_PATH = env.deploy_path
 
 # Remote server configuration
-production = 'elliot@do2.elliottucker.net:22'
-dest_path = '/var/www'
+production = 'root@web1.elliottucker.net:22'
+dest_path = '/var/www/html'
 
 
 
@@ -45,12 +45,24 @@ def cf_upload():
           '-K {cloudfiles_api_key} '
           'upload -c {cloudfiles_container} .'.format(**env))
 
+
+@hosts(production)
+def setupserver():
+  sudo("systemctl stop nginx")
+  sudo("letsencrypt certonly --standalone --non-interactive  --agree-tos --email elliot.tucker@gmail.com -d elliottucker.net -d www.elliottucker.net -d mail.elliottucker.net")
+  sudo('echo "01 01 * * * root letsencrypt renew --webroot -w /var/www/html" >> /etc/crontab')
+  with cd("/etc/nginx/sites-enabled"):
+    put("nginx_default", "default")
+  put("keybase.txt", "{}/.well-known/keybase.txt".format(dest_path))
+  sudo("systemctl restart nginx")
+
+
 @hosts(production)
 def publish():
     local('pelican -s publishconf.py')
     project.rsync_project(
         remote_dir=dest_path,
-        exclude=".DS_Store",
+        exclude=[".DS_Store","photos"],
         local_dir=DEPLOY_PATH.rstrip('/') + '/',
         delete=True
     )

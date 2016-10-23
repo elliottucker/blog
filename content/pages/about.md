@@ -7,7 +7,7 @@ Date: 2013-08-10 20:12
 Amateur photographer who doesn't get out nearly enough. I'm told that when I do, I can take the odd good pic, anything from landscapes to social documentary. Now and then I point a telescope at the sky.
 
 
-You'll find me mainly on [Twitter](http://twitter.com/elliottucker) and [Google+](https://plus.google.com/107749209705509326553?rel=author). You'll find some of my pics on at [Flickr](http://www.flickr.com/photos/elliot_tucker).
+You'll find me mainly on [Twitter](http://twitter.com/elliottucker) and you can see some of my pics on at [500px/elliottucker](http://500px/elliottucker).
 
 Oh, and I'm a Brit, living in Ireland, with an ace wife and two fab kids.
 
